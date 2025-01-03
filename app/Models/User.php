@@ -45,4 +45,9 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+
+    public function teknikdigital()
+    {
+        return $this->hasOne(Teknikdigital::class, 'nim', 'nim');
+    }
 }
