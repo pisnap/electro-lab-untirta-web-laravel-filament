@@ -14,7 +14,7 @@ class TransparansiTD extends Page
 
     protected static ?string $navigationLabel = 'Transparansi';
 
-    protected static ?string $title = 'Transparansi';
+    protected static ?string $title = 'Transparansi Nilai';
 
     protected static ?string $slug = 'transparansi-teknik-digital';
 
